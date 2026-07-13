@@ -1,0 +1,21 @@
+
+.gta-btn{margin-top:12px;padding:12px 18px;border:1px solid #444;background:#111;color:#fff;border-radius:14px;cursor:pointer}
+.gta-modal{position:fixed;inset:0;background:rgba(0,0,0,.85);display:flex;justify-content:center;align-items:center;z-index:1000}
+.gta-box{background:#111;padding:20px;border-radius:20px;color:#fff}
+.hud{margin-bottom:10px}
+.gta-map{width:800px;height:500px;background:#2f6f3e;position:relative;overflow:hidden;border-radius:12px}
+.road{position:absolute;background:#555}
+.h1{top:120px;height:80px;width:100%}
+.h2{top:320px;height:80px;width:100%}
+.v1{left:220px;width:80px;height:100%}
+.v2{left:520px;width:80px;height:100%}
+.building{position:absolute;background:#caa36a;border:3px solid #8b6b3e}
+.b1{left:40px;top:30px;width:120px;height:120px}
+.b2{right:50px;top:40px;width:140px;height:100px}
+.b3{left:320px;bottom:40px;width:160px;height:90px}
+.player,.police,.cash,.mission{position:absolute;font-size:32px}
+.player{transition:left .08s linear,top .08s linear}
+.police{right:80px;bottom:60px}
+.cash{left:350px;top:220px}
+.mission{left:90px;bottom:80px}
+.help{margin-top:10px;font-size:14px;color:#ccc}

@@ -1,5 +1,7 @@
 import foto from '../assets/afonso.jpg';
 import './Header.css';
+import PacmanGame from './PacmanGame';
+import GTAGame from './GTAGame';
 
 function calcularIdade() {
   const nascimento = new Date(2010, 8, 20); // 20 de setembro de 2010
@@ -91,6 +93,8 @@ function Header() {
               <a href="tel:+351928127370">928 127 370</a>
             </div>
           </div>
+          <PacmanGame />
+          <GTAGame />
         </div>
       </div>
     </header>
